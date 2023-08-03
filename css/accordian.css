@@ -1,0 +1,72 @@
+/*
+	Vertical Accordions
+*/
+
+#vertical_container {
+    width: 500px;
+}
+
+.accordion_toggle {
+    font-family: "Myriad Web", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #bf2c37;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    width: 510px;
+    text-decoration: none;
+    border-bottom: 1px solid #75787e;
+    cursor: pointer;
+    margin: 0 0 0 0px;
+}
+
+.accordion_toggle_active {
+    color: #bf2c37;
+}
+
+.accordion_content {
+    font-family: "Myriad Web", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    width: 510px;
+    color: #000000;
+    border-bottom: 2px solid #fdfbe8;
+    overflow: hidden;
+    padding: 0px 0px 0px 0px;
+}
+
+.accordion_content h3 {
+    font-family: "Myriad Web", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #bf2c37;
+    font-weight: normal;
+    padding: 0px;
+}
+
+.accordion_content h4 {
+    font-family: "Myriad Web", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 13px;
+    padding: 2px 10px 2px 0px;
+    margin: 0px;
+    color: #6e0f13;
+}
+
+.accordion_content p {
+    font-family: "Myriad Web", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    padding: 3px 0px 3px 0px;
+}
+
+.accordion_content a {
+    font-family: "Myriad Web", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #2683fe;
+    overflow: hidden;
+}
