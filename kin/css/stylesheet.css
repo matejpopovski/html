@@ -190,6 +190,21 @@ h3.content {
     background: url(../images/quote_marks_short.gif) no-repeat top left;
 }
 
+#leftserv {
+    background: url(/images/left_bg_services.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:750px) {
+    #leftserv {
+        background: url(/images/left_bg_services.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+}
+
 #services_right {
     background: #ffffff;
     margin: 0;
